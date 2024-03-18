@@ -1,0 +1,19 @@
+
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"> </script>
+        <script type="text/javascript">
+        angular.module("sample",[]);
+        </script>
+       
+    </head>
+    <body ng-app="sample" bgcolor=" lightgreen" text="black">
+        <h1>Welcome to AngularJS</h1>
+        <p> Enter First Name </p>
+        <input type="text" ng-model="text1" placeholder="Type Firstname">
+        <p> Enter Last Name </p>
+        <input type="text" ng-model="text2" placeholder="Type Lastname">
+        <p> Student Name : {{ text1+" "+ text2 }} </p>
+
+    </body>
+</html>
